@@ -2,15 +2,12 @@
 # [cantonese](https://github.com/rime/rime-cantonese)
 # [nk2028/rime-tupa](https://github.com/nk2028/rime-tupa)
 # [rime-aca/rime-hangyl](https://github.com/rime-aca/rime-hangyl)
+# [emoji](https://github.com/rime/rime-emoji)
 # opencc folder dependencies:
 # [t2koutt](https://github.com/coywjs/texts)
 
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.14.3
-  generator: "Rime::SwitcherSettings"
-  modified_time: "Thu Jul 28 01:05:18 2022"
-  rime_version: 1.5.3
+# on Android, use luna instead of terra
+
 patch:
   menu:
     page_size: 8
