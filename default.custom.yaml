@@ -1,0 +1,21 @@
+# dependencies:
+# [cantonese](https://github.com/rime/rime-cantonese)
+# [nk2028/rime-tupa](https://github.com/nk2028/rime-tupa)
+# [rime-aca/rime-hangyl](https://github.com/rime-aca/rime-hangyl)
+# opencc folder dependencies:
+# [t2koutt](https://github.com/coywjs/texts)
+
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Jul 28 01:05:18 2022"
+  rime_version: 1.5.3
+patch:
+  menu:
+    page_size: 8
+  schema_list:
+    - {schema: terra_pinyin}
+    - {schema: jyut6ping3}
+    - {schema: tupa}
+    - {schema: hangyl}

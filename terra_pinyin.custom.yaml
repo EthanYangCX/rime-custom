@@ -1,0 +1,11 @@
+patch:
+  __patch:
+    - symbols:/patch?
+  switches/+:
+    - name: tjiaengh
+      states: [ "t2通", "t2正" ]
+  simplifier:
+    option_name: tjiaengh
+    opencc_config: t2koutt.json
+    tags: [ abc ]
+    tips: none
